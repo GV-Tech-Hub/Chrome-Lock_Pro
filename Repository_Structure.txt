@@ -1,0 +1,14 @@
+browserguard-pro/
+├── css/
+│   └── styles.css
+├── js/
+│   ├── background.js
+│   └── options.js
+├── icons/
+│   ├── lock-16.png
+│   ├── lock-48.png
+│   └── lock-128.png
+├── manifest.json
+├── options.html
+├── README.md
+└── LICENSE
