@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "ChromeLock Pro",
+  "version": "1.0",
+  "description": "Secure browser access with static and dynamic passwords",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/lock-16.png",
+      "48": "icons/lock-48.png",
+      "128": "icons/lock-128.png"
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icons/lock-16.png",
+    "48": "icons/lock-48.png",
+    "128": "icons/lock-128.png"
+  }
+}
