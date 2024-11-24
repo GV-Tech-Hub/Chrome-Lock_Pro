@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChromeLock Pro Settings</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ChromeLock Pro Settings</h1>
+        <div class="setting-group">
+            <h2>Password Mode</h2>
+            <select id="passwordMode">
+                <option value="static">Static Password</option>
+                <option value="dynamic">Dynamic Password</option>
+            </select>
+        </div>
+        <div class="setting-group">
+            <h2>Change Static Password</h2>
+            <input type="password" id="newPassword" placeholder="New Password">
+            <button id="updatePassword">Update Password</button>
+        </div>
+        <div id="status"></div>
+    </div>
+    <script src="js/options.js"></script>
+</body>
+</html>
